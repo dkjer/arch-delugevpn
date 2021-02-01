@@ -2,6 +2,7 @@
 
 # exit script if return code != 0
 set -e
+set -x
 
 # note do NOT download build scripts - inherited from int script with envvars common defined
 
